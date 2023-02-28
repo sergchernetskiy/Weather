@@ -1,0 +1,22 @@
+.weather__card {
+  margin: 0 auto;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0 2 40px 0 rgba(142, 156, 170, 0.6);
+  background: #cfbdc0;
+  font-weight: 500;
+  color: #281e48;
+  border-radius: 8px;
+  margin-top: 40px;
+}
+
+.weather-info-item:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.city-name {
+  font-size: 26px;
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
